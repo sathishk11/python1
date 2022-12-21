@@ -17,3 +17,14 @@ print(str1.upper())
 print(str1)
 print(str1.count("e")) #count
 print(str1.isupper())
+str2=" hello "
+print(str2)
+print(str2.strip()) #removing space
+x=" coimbatore "
+print(x.replace("o","a").upper()) #replace and uppercase - 2 operations in same line
+print(x.lstrip()) #left side space remove
+print(x.rstrip()) #right side space remove
+#split operation
+x1="You can use multiple programming languages like Java, C#, Python, etc to create Selenium Test Scripts"
+print(x1.split())
+print(x1.split("etc"))
