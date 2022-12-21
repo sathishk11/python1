@@ -28,3 +28,12 @@ print(x.rstrip()) #right side space remove
 x1="You can use multiple programming languages like Java, C#, Python, etc to create Selenium Test Scripts"
 print(x1.split())
 print(x1.split("etc"))
+x2="sathish\" kumar" #\" escape character (escape the logic)
+print(x2)
+x3='''
+Selenium Software is not just a single tool
+'''
+print(x3)
+print('not' in x3)
+print(x3[::-1])
+print(x3.capitalize())
