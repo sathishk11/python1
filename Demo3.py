@@ -5,18 +5,18 @@ print(5+8-2)
 print(5-8+2)
 #String manipulation
 str1="welcome"
-print(len(str1))
-print(str1[2])
+print(len(str1)) # to find the length of string
+print(str1[2]) # to print the index value of string
 a=1234
-c=str(a)
-print(type(c))
+c=str(a) # to store the value of a is int to string
+print(type(c)) # to print the type of c( int or string or boolen)
 #operations in string #find
-print(str1.find("l"))
+print(str1.find("l")) # to find the index of "l"
 print(str1.find("a"))
-print(str1.upper())
+print(str1.upper()) # it will print the string in uppercase
 print(str1)
-print(str1.count("e")) #count
-print(str1.isupper())
+print(str1.count("e")) # to count how many of "e" is there
+print(str1.isupper()) # to check the srting is uppercase if yes it will print true else false
 str2=" hello "
 print(str2)
 print(str2.strip()) #removing space
