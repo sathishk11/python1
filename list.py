@@ -18,10 +18,11 @@ print(a)
 b=["one", "two", "three", "four", "five"]
 b.sort() # it will arrange the ascending order
 print(b)
+print(b.count("five")) # to print how many "five" is there
 c=[1,2,3,43,25,16,7,8,9]
 c.sort()
 c.reverse() # it will arrange the descending order
 print(c)
 c.clear()
 print(c)
-print(b.count("five")) # to print the how many "five" is there
+
