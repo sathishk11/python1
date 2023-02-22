@@ -15,7 +15,7 @@ for x in l: #iterator
 
 print("The largest num is:",max_num)
 
-m=[20,40,30,60,90,10]
+m=[5,40,30,60,90,10]
 min_num=m[0]
 for x in m:
     if x<min_num:
@@ -25,3 +25,5 @@ print("The smallest num is:",min_num)
 
 a=[12,45,32,89]
 print(max(a))
+print(min(a))
+print(len(a))

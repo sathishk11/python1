@@ -5,7 +5,7 @@ c=14
 print(a + b)
 print(a - b)
 print(a / b)
-a="think"
+a="as"
 print(type(a))
 import keyword
 print(keyword.kwlist)
